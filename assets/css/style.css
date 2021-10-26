@@ -47,7 +47,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
 }
+/*header styles end*/
 
+/*footer style start*/
 footer {
     background: #fce138;
     width: 100%;
@@ -71,7 +73,9 @@ footer div {
 footer a {
     color: #024e76;
 }
+/*footer end*/
 
+/*ALL section tags*/
 section {
     padding: 60px;
 }
@@ -85,7 +89,6 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     }
-/*Hero Style End */
 
 .hero-cta {
     width: 35%;
@@ -144,6 +147,27 @@ section {
 }
 /*Hero-form style end */
 
+/*section title style start*/
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+/*section title styles end*/
+
 /*What we do style*/
 .intro p {
     line-height: 1.7;
@@ -153,7 +177,9 @@ section {
     margin: 0 auto;
     text-align: center;
 }
+/*what we do styles end*/
 
+/*what you do styles end*/
 .steps {
     background: #fce138
 }
@@ -205,25 +231,9 @@ section {
     line-height: 1.5;
     color: #024e76;
 }
+/*what you do styles end*/
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    border-bottom: 3px solid;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
+/*trainer styles begin*/
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -261,23 +271,17 @@ section {
 .trainer-bio p {
     font-size: 17px;
 }
+/*trainer styles end*/
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
-}
 
 /*Reach out styles start */
 
 .contact {
     background-color: #024e76;
+}
+
+.contact h2 {
+    color:#fce138;
 }
 
 .contact-info {
@@ -291,21 +295,11 @@ section {
     margin: 15px;
 }
 
-.contact h2 {
-    color:#fce138;
-}
-
 .contact-info iframe {
-    width: 400px;
     height: 400px;
 }
 
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -315,14 +309,10 @@ section {
 }
 
 .contact-info p, .contact-info address {
-    margin: 16px 0;
+    margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
-}
-
-.contact-info a {
-    color: #fce138;
 }
 
 .contact-form input, .contact-form textarea {
@@ -346,4 +336,22 @@ section {
     font-size: 16px;
 }
 
+.contact-info a {
+    color: #fce138;
+}
+
 /* REACH OUT STYLES END */
+
+/*other*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
