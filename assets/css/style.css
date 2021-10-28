@@ -16,8 +16,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -48,13 +48,14 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -336,7 +337,7 @@ section {
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(196, 240, 253, 0.5)
+    background-color: rgba(255,255,255,0.75);
 }
 
 .contact-form input:focus, .contact-form textarea:focus {
